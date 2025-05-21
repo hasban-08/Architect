@@ -1,0 +1,317 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+}
+
+header {
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-top: -10px;
+    display: flex;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    align-items: center;
+    background-color: white;
+    /* justify-content: space-around; */
+    box-shadow: 2px 2px 9px grey;
+}
+h1 {
+    font-size: 48px;
+    background-color: lightgray;
+    width: 80px;
+    text-align: center;
+    margin-left: 150px;
+}
+.span {
+    font-size: 32px;
+    margin-top: 15px;
+}
+
+ul {
+    display: flex;
+    font-size: 20px;
+    margin-left: 740px;
+}
+li {
+    list-style-type: none;
+    padding-left: 50px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-main {
+    height: 800px;
+    width: 1480px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.projects {
+    border-bottom: 0.5px solid darkgray;
+    font-size: 42px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+}
+
+.row1 {
+    height: 300px;
+    width: 1500px;
+    /* border: 1px solid; */
+    margin-left: 20px;
+}
+.row1 img {
+    height: 300px;
+    width: 336px;
+    padding-right: 30px;
+}
+
+.row2 {
+    height: 300px;
+    width: 1500px;
+    /* border: 1px solid; */
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.row2 img {
+    height: 300px;
+    width: 336px;
+    padding-right: 30px;
+}
+
+.about {
+    border: 1ps solid;
+    height: 300px;
+    margin-top: 40px;
+}
+
+.about h2 {
+    font-size: 42px;
+    border-bottom: 0.5px solid darkgray ;
+    padding-bottom: 10px;
+}
+.about p {
+    font-size: 18px;
+}
+
+.members {
+    height: 500px;
+    display: flex;
+    margin-top: -20px;
+    /* margin-left: 20px; */
+}
+.card1 img {
+    height: 300px;
+    width: 320px;
+}
+
+.card1 h2 {
+    font-size: 28px;
+}
+.card1 p {
+    text-align: center;
+}
+.card1 {
+    width: 24.5%;
+
+}
+
+.card1 .btn-1 {
+    width: 50%;
+    font-size: 18px;
+    border-radius: 6px;
+    height: 37px;
+    border: 0.5px solid grey;
+}
+.card1 .btn-1:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.card2 img {
+    height: 300px;
+    width: 320px;
+}
+
+.card2 h2 {
+    font-size: 28px;
+}
+.card2 p {
+    text-align: center;
+}
+.card2 {
+    width: 24.5%;
+    margin-left: 30px;
+}
+
+.card2 .btn-2 {
+    width: 50%;
+    font-size: 18px;
+    border-radius: 6px;
+    height: 37px;
+    border: 0.5px solid grey;
+}
+.card2 .btn-2:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+
+.card3 img {
+    height: 300px;
+    width: 320px;
+}
+
+.card3 h2 {
+    font-size: 28px;
+}
+.card3 p {
+    text-align: center;
+}
+.card3 {
+    width: 24.5%;
+    margin-left: 30px;
+}
+
+.card3 .btn-3 {
+    width: 50%;
+    font-size: 18px;
+    border-radius: 6px;
+    height: 37px;
+    border: 0.5px solid grey;
+}
+.card3 .btn-3:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+
+.card4 img {
+    height: 300px;
+    width: 320px;
+}
+
+.card4 h2 {
+    font-size: 28px;
+}
+.card4 p {
+    text-align: center;
+}
+.card4 {
+    width: 24.5%;
+    margin-left: 30px;
+}
+
+.card4 .btn-4 {
+    width: 50%;
+    font-size: 18px;
+    border-radius: 6px;
+    height: 37px;
+    border: 0.5px solid grey;
+}
+.card4 .btn-4:hover {
+    background-color: lightgray;
+    color: black;
+    cursor: pointer;
+}
+
+.contact {
+    height: 430px;
+    /* border: 1px solid; */
+    margin-top: 90px;
+}
+.contact h2 {
+    font-size: 42px;
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 10px;
+}
+.contact p {
+    font-size: 18px;
+}
+.contact .name {
+    width: 99.5%;
+    height: 35px;
+    border-radius: 3px;
+    border: 0.5px solid;
+    margin-bottom: 8px;
+}
+.contact .name::placeholder {
+    font-size: 16px;
+    padding-left: 4px;
+    padding-top: 2px;
+    color: rgb(46, 46, 46);
+}
+.contact .email {
+    width: 99.5%;
+    height: 35px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    border: 0.5px solid;
+}
+.contact .email::placeholder {
+    font-size: 16px;
+    padding-left: 4px;
+    padding-top: 2px;
+    color: rgb(46, 46, 46);
+}
+.contact .subj {
+    width: 99.5%;
+    height: 35px;
+    border-radius: 3px;
+    border: 0.5px solid;
+    margin-bottom: 8px;
+}
+.contact .subj::placeholder {
+    font-size: 16px;
+    padding-left: 4px;
+    padding-top: 2px;
+    color: rgb(46, 46, 46);
+}
+.contact .comment {
+    width: 99.5%;
+    height: 35px;
+    border-radius: 3px;
+    margin-bottom: 8px;
+    border: 0.5px solid;
+}
+.contact .comment::placeholder {
+    font-size: 16px;
+    padding-left: 4px;
+    padding-top: 2px;
+    color: rgb(46, 46, 46);
+}
+.contact  button {
+    height: 50px;
+    width: 170px;
+    font-size: 17px;
+    border-radius: 5px;
+    border: 0.5px solid grey;
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+}
+
+.contact button:hover {
+    color: black;
+    background-color: grey;
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: -50px;
+    margin-right: -50px;
+    margin-bottom: -10px;
+    font-size: 19px;
+    padding-top: 12px;
+}
